@@ -1,0 +1,40 @@
+.quiz-container {
+  width: 100%;
+  max-width: 600px;
+  padding-top: 100px;
+}
+
+.restults {
+  margin-top: 30px;
+}
+
+/* quizEnded */
+
+.quiz-ended {
+  width: 100%;
+  display: none;
+}
+
+.quiz-ended h3 {
+  text-transform: capitalize;
+}
+/* multiple choice */
+
+.multiple-selection .choice {
+  display: inline-block;
+}
+.choice-selected {
+  border: 2px solid green;
+}
+
+.choice:hover {
+  cursor: pointer;
+}
+.choice span {
+  margin: 0 10px;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 20px;
+}
